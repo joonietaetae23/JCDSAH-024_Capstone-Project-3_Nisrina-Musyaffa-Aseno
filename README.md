@@ -1,11 +1,11 @@
 # Travel Insurance Claim Prediction
 
-## 📌 Project Overview
+## Project Overview
 Proyek ini bertujuan untuk membangun model *machine learning* yang mampu memprediksi kemungkinan seorang pemegang polis mengajukan klaim asuransi perjalanan. Model dikembangkan menggunakan data historis pelanggan asuransi perjalanan, mencakup perjalanan domestik dan internasional, guna mendukung pengelolaan risiko dan pengambilan keputusan bisnis yang lebih akurat.
 
 ---
 
-## 🎯 Business Context
+## Business Context
 Seiring meningkatnya jumlah perjalanan domestik dan internasional, perusahaan asuransi perjalanan menghadapi risiko klaim yang semakin beragam. Tidak semua pemegang polis memiliki tingkat risiko yang sama, sehingga kesalahan dalam memprediksi klaim dapat berdampak pada:
 - Penetapan premi yang kurang optimal  
 - Meningkatnya biaya klaim yang tidak terantisipasi  
@@ -15,7 +15,7 @@ Pemanfaatan data historis pelanggan diharapkan dapat membantu perusahaan dalam m
 
 ---
 
-## 🧾 Dataset
+## Dataset
 Dataset berisi data historis pemegang polis asuransi perjalanan, antara lain:
 - Tujuan perjalanan  
 - Jenis dan cakupan produk asuransi  
@@ -25,7 +25,7 @@ Dataset berisi data historis pemegang polis asuransi perjalanan, antara lain:
 
 ---
 
-## 🎯 Target Variable
+## Target Variable
 Status klaim asuransi:
 - **0** → Tidak mengajukan klaim  
 - **1** → Mengajukan klaim  
@@ -34,7 +34,7 @@ Permasalahan ini dimodelkan sebagai **binary classification**.
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 Tidak semua pemegang polis memiliki tingkat risiko klaim yang sama. Klaim yang tidak terprediksi dengan baik dapat menyebabkan:
 - Peningkatan biaya klaim yang tidak terantisipasi  
 - Kesulitan dalam pengelolaan risiko  
@@ -44,7 +44,7 @@ Oleh karena itu, diperlukan model prediktif yang mampu mengidentifikasi pemegang
 
 ---
 
-## 🥅 Goals
+## Goals
 - Mengembangkan model *machine learning* untuk memprediksi kemungkinan pengajuan klaim asuransi.
 - Meminimalkan risiko klaim yang tidak teridentifikasi oleh model.
 - Mengidentifikasi variabel-variabel utama yang memengaruhi klaim, seperti:
@@ -55,7 +55,7 @@ Oleh karena itu, diperlukan model prediktif yang mampu mengidentifikasi pemegang
 
 ---
 
-## 🔍 Analytic Approach
+## Analytic Approach
 1. Melakukan **Exploratory Data Analysis (EDA)** untuk memahami pola dan karakteristik data.
 2. Melakukan **data preprocessing**, termasuk penanganan *missing values*, *feature engineering*, encoding, dan scaling.
 3. Membangun **model klasifikasi** untuk memprediksi kemungkinan pengajuan klaim.
@@ -63,7 +63,7 @@ Oleh karena itu, diperlukan model prediktif yang mampu mengidentifikasi pemegang
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 Evaluasi model difokuskan pada kesalahan prediksi yang memiliki dampak bisnis signifikan:
 
 | Jenis Error | Definisi | Konsekuensi Bisnis |
